@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Ambiental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Ambiental</h1>
+    </header>
+
+    <main>
+        <section id="quiz">
+            <h2>Teste seus conhecimentos sobre o meio ambiente!</h2>
+            
+            <form id="quizForm">
+                <div class="question">
+                    <p><strong>1. Qual é a principal causa do aquecimento global?</strong></p>
+                    <label><input type="radio" name="q1" value="a"> A) Uso de energias renováveis</label><br>
+                    <label><input type="radio" name="q1" value="b"> B) Queimadas e emissões de gases</label><br>
+                    <label><input type="radio" name="q1" value="c"> C) Conservação de florestas</label>
+                </div>
+
+                <div class="question">
+                    <p><strong>2. Qual é a principal função das florestas?</strong></p>
+                    <label><input type="radio" name="q2" value="a"> A) Produzir comida para animais</label><br>
+                    <label><input type="radio" name="q2" value="b"> B) Produzir oxigênio e absorver CO2</label><br>
+                    <label><input type="radio" name="q2" value="c"> C) Produzir água potável</label>
+                </div>
+
+                <div class="question">
+                    <p><strong>3. O que você pode fazer para reduzir seu impacto ambiental?</strong></p>
+                    <label><input type="radio" name="q3" value="a"> A) Usar mais plástico</label><br>
+                    <label><input type="radio" name="q3" value="b"> B) Reciclar e reduzir o consumo</label><br>
+                    <label><input type="radio" name="q3" value="c"> C) Descartar resíduos no lixo comum</label>
+                </div>
+
+                <button type="button" id="submitBtn">Enviar Respostas</button>
+                <div id="result"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quiz Ambiental. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
